@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-03 11:24",
+ "as_of_jamaica": "2026-11-03 11:40",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,7 +67,7 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-03 11:20:18",
+  "updated": "2026-11-03 11:31:14",
   "resolved": 56,
   "open": 1,
   "wins": 22,
@@ -414,61 +414,61 @@
   ]
  },
  "scanner": {
-  "rows": 155,
-  "runs": 13,
-  "candidates": 10,
+  "rows": 166,
+  "runs": 14,
+  "candidates": 12,
   "latest": [
    {
     "symbol": "frxEURUSD",
-    "time": "2026-11-03 08:44",
-    "trend": "NONE",
-    "stage": "N/A",
+    "time": "2026-11-03 11:38",
+    "trend": "UP",
+    "stage": "EARLY",
     "candidate": "False",
-    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+    "why": "no M15 confirmation (last M15 close 1.1194 vs prior high 1.1195)"
    },
    {
     "symbol": "frxGBPUSD",
-    "time": "2026-11-03 08:44",
+    "time": "2026-11-03 11:38",
     "trend": "UP",
+    "stage": "MATURE",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 1.3417 vs prior high 1.3418)"
+   },
+   {
+    "symbol": "frxXAUUSD",
+    "time": "2026-11-03 11:38",
+    "trend": "DOWN",
+    "stage": "MATURE",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 3934 vs prior low 3933.4)"
+   },
+   {
+    "symbol": "OTC_DJI",
+    "time": "2026-11-03 11:38",
+    "trend": "DOWN",
+    "stage": "EARLY",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 51873 vs prior low 51827)"
+   },
+   {
+    "symbol": "OTC_SPC",
+    "time": "2026-11-03 11:38",
+    "trend": "DOWN",
     "stage": "MATURE",
     "candidate": "True",
     "why": ""
    },
    {
-    "symbol": "frxXAUUSD",
-    "time": "2026-11-03 08:44",
-    "trend": "DOWN",
-    "stage": "MATURE",
-    "candidate": "False",
-    "why": "no M15 confirmation (last M15 close 3954.4 vs prior low 3927.9)"
-   },
-   {
-    "symbol": "OTC_DJI",
-    "time": "2026-11-03 08:44",
-    "trend": "DOWN",
-    "stage": "EXHAUSTING",
-    "candidate": "False",
-    "why": "trend EXHAUSTING: price 2.59 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 51"
-   },
-   {
-    "symbol": "OTC_SPC",
-    "time": "2026-11-03 08:44",
-    "trend": "DOWN",
-    "stage": "EXHAUSTING",
-    "candidate": "False",
-    "why": "trend EXHAUSTING: price 3.66 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 75"
-   },
-   {
     "symbol": "R_75",
-    "time": "2026-11-03 08:44",
+    "time": "2026-11-03 11:38",
     "trend": "DOWN",
     "stage": "EXHAUSTING",
     "candidate": "False",
-    "why": "trend EXHAUSTING: price 3.07 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 35"
+    "why": "trend EXHAUSTING: price 4.88 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 34"
    },
    {
     "symbol": "R_100",
-    "time": "2026-11-03 08:44",
+    "time": "2026-11-03 11:38",
     "trend": "NONE",
     "stage": "N/A",
     "candidate": "False",
@@ -476,35 +476,35 @@
    },
    {
     "symbol": "1HZ75V",
-    "time": "2026-11-03 08:44",
-    "trend": "DOWN",
-    "stage": "EARLY",
+    "time": "2026-11-03 11:38",
+    "trend": "NONE",
+    "stage": "N/A",
     "candidate": "False",
-    "why": "no M15 confirmation (last M15 close 4600.9 vs prior low 4556.9)"
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
    },
    {
     "symbol": "1HZ100V",
-    "time": "2026-11-03 08:44",
+    "time": "2026-11-03 11:38",
     "trend": "UP",
     "stage": "MATURE",
     "candidate": "False",
-    "why": "no M15 confirmation (last M15 close 1362.5 vs prior high 1371.5)"
+    "why": "no M15 confirmation (last M15 close 1315.6 vs prior high 1331.9)"
    },
    {
     "symbol": "R_25",
-    "time": "2026-11-03 08:44",
+    "time": "2026-11-03 11:38",
     "trend": "UP",
-    "stage": "EARLY",
+    "stage": "MATURE",
     "candidate": "True",
     "why": ""
    },
    {
     "symbol": "1HZ25V",
-    "time": "2026-11-03 08:44",
+    "time": "2026-11-03 11:38",
     "trend": "DOWN",
     "stage": "EXHAUSTING",
     "candidate": "False",
-    "why": "trend EXHAUSTING: price 3.79 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 9."
+    "why": "trend EXHAUSTING: price 3.81 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 9."
    },
    {
     "symbol": "frxUSDJPY",
