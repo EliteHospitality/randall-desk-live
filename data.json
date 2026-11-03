@@ -1,0 +1,687 @@
+{
+ "as_of_jamaica": "2026-11-03 08:11",
+ "demo_trades": [
+  {
+   "lane": "learning",
+   "time": "2026-10-28 13:38",
+   "market": "EURUSDmicro",
+   "tf": "H4",
+   "dir": "SELL",
+   "score": "6.0 (CALCULATED)",
+   "entry": "1.11330",
+   "stop": "1.11590",
+   "target": "1.10922",
+   "result": "Loss (SL)",
+   "r": -1.01,
+   "usd": -9.8
+  },
+  {
+   "lane": "learning",
+   "time": "2026-10-29 00:02",
+   "market": "Volatility 150 (1s)",
+   "tf": "H1",
+   "dir": "BUY",
+   "score": "6.5 (CALCULATED)",
+   "entry": "45.79",
+   "stop": "44.13",
+   "target": "48.43",
+   "result": "Win (TP)",
+   "r": 1.6,
+   "usd": 15.29
+  }
+ ],
+ "equity": [
+  {
+   "t": "2026-10-28 06:35",
+   "bal": 10000.0
+  },
+  {
+   "t": "2026-10-28 13:38",
+   "bal": 9990.2
+  },
+  {
+   "t": "2026-10-29 00:02",
+   "bal": 10005.49
+  }
+ ],
+ "demo_balance": 10005.49,
+ "lanes": [
+  {
+   "lane": "challenge ($1k virtual)",
+   "trades": 0,
+   "note": "no trades yet"
+  },
+  {
+   "lane": "practice",
+   "trades": 0,
+   "note": "closed 28 Oct with 0 trades"
+  },
+  {
+   "lane": "learning (shut 28 Oct)",
+   "trades": 2,
+   "wins": 1,
+   "win_rate": 0.5,
+   "net_R": 0.59,
+   "net_usd": 5.49
+  }
+ ],
+ "journal_ideas": 11,
+ "forward": {
+  "updated": "2026-11-03 08:00:14",
+  "resolved": 54,
+  "open": 1,
+  "wins": 20,
+  "win_rate": 0.3704,
+  "exp_R": -0.2358,
+  "ci95": 0.303,
+  "total_R": -12.734,
+  "total_usd": -254.68,
+  "target": 50,
+  "significant": false,
+  "in_window": {
+   "signals": 30,
+   "open": 0,
+   "resolved": 30,
+   "wins": 10,
+   "losses": 20,
+   "flat": 0,
+   "win_rate": 0.3333,
+   "avg_R_gross": -0.2222,
+   "avg_R_net": -0.3222,
+   "avg_usd_gross": -4.44,
+   "avg_usd_net": -6.44,
+   "total_R_net": -9.667,
+   "total_usd_net": -193.34,
+   "ci95_R": 0.4,
+   "significant": false
+  },
+  "backtest_ref": {
+   "trades": 45,
+   "win_rate": 0.556,
+   "avg_R_gross": 0.27,
+   "avg_R_net": 0.17,
+   "note": "forex M15 pooled; not statistically significant"
+  },
+  "curve": [
+   {
+    "t": "2026-10-27 10:30",
+    "cumR": -1.1
+   },
+   {
+    "t": "2026-10-27 10:30",
+    "cumR": -2.2
+   },
+   {
+    "t": "2026-10-27 15:45",
+    "cumR": -3.3
+   },
+   {
+    "t": "2026-10-27 20:15",
+    "cumR": -4.4
+   },
+   {
+    "t": "2026-10-27 21:00",
+    "cumR": -5.5
+   },
+   {
+    "t": "2026-10-28 01:45",
+    "cumR": -6.6
+   },
+   {
+    "t": "2026-10-28 02:30",
+    "cumR": -5.37
+   },
+   {
+    "t": "2026-10-28 05:00",
+    "cumR": -6.47
+   },
+   {
+    "t": "2026-10-28 07:00",
+    "cumR": -7.57
+   },
+   {
+    "t": "2026-10-28 09:00",
+    "cumR": -6.33
+   },
+   {
+    "t": "2026-10-28 10:15",
+    "cumR": -7.43
+   },
+   {
+    "t": "2026-10-28 13:30",
+    "cumR": -8.53
+   },
+   {
+    "t": "2026-10-28 13:30",
+    "cumR": -9.63
+   },
+   {
+    "t": "2026-10-28 13:45",
+    "cumR": -10.73
+   },
+   {
+    "t": "2026-10-28 13:45",
+    "cumR": -11.83
+   },
+   {
+    "t": "2026-10-28 14:00",
+    "cumR": -12.93
+   },
+   {
+    "t": "2026-10-28 14:00",
+    "cumR": -14.03
+   },
+   {
+    "t": "2026-10-28 17:45",
+    "cumR": -15.13
+   },
+   {
+    "t": "2026-10-28 19:00",
+    "cumR": -13.9
+   },
+   {
+    "t": "2026-10-28 20:45",
+    "cumR": -15.0
+   },
+   {
+    "t": "2026-10-28 21:30",
+    "cumR": -13.77
+   },
+   {
+    "t": "2026-10-29 03:00",
+    "cumR": -12.53
+   },
+   {
+    "t": "2026-10-29 03:15",
+    "cumR": -11.3
+   },
+   {
+    "t": "2026-10-29 04:00",
+    "cumR": -12.4
+   },
+   {
+    "t": "2026-10-29 04:45",
+    "cumR": -11.17
+   },
+   {
+    "t": "2026-10-29 06:30",
+    "cumR": -9.93
+   },
+   {
+    "t": "2026-10-29 08:15",
+    "cumR": -11.03
+   },
+   {
+    "t": "2026-10-29 08:30",
+    "cumR": -9.8
+   },
+   {
+    "t": "2026-10-29 12:30",
+    "cumR": -10.9
+   },
+   {
+    "t": "2026-10-29 14:15",
+    "cumR": -9.67
+   },
+   {
+    "t": "2026-10-29 17:30",
+    "cumR": -10.77
+   },
+   {
+    "t": "2026-10-29 17:30",
+    "cumR": -11.87
+   },
+   {
+    "t": "2026-10-29 22:30",
+    "cumR": -10.63
+   },
+   {
+    "t": "2026-10-29 23:00",
+    "cumR": -11.73
+   },
+   {
+    "t": "2026-10-30 02:15",
+    "cumR": -10.5
+   },
+   {
+    "t": "2026-10-30 05:45",
+    "cumR": -9.27
+   },
+   {
+    "t": "2026-10-30 06:15",
+    "cumR": -8.03
+   },
+   {
+    "t": "2026-10-30 10:45",
+    "cumR": -9.13
+   },
+   {
+    "t": "2026-10-30 11:30",
+    "cumR": -10.23
+   },
+   {
+    "t": "2026-11-02 02:00",
+    "cumR": -11.33
+   },
+   {
+    "t": "2026-11-02 08:00",
+    "cumR": -12.43
+   },
+   {
+    "t": "2026-11-02 08:00",
+    "cumR": -13.53
+   },
+   {
+    "t": "2026-11-02 08:45",
+    "cumR": -12.3
+   },
+   {
+    "t": "2026-11-02 09:00",
+    "cumR": -11.07
+   },
+   {
+    "t": "2026-11-02 15:00",
+    "cumR": -12.17
+   },
+   {
+    "t": "2026-11-02 15:15",
+    "cumR": -10.93
+   },
+   {
+    "t": "2026-11-02 19:30",
+    "cumR": -9.7
+   },
+   {
+    "t": "2026-11-02 20:15",
+    "cumR": -10.8
+   },
+   {
+    "t": "2026-11-02 22:00",
+    "cumR": -9.57
+   },
+   {
+    "t": "2026-11-03 00:15",
+    "cumR": -10.67
+   },
+   {
+    "t": "2026-11-03 01:00",
+    "cumR": -11.77
+   },
+   {
+    "t": "2026-11-03 03:30",
+    "cumR": -10.53
+   },
+   {
+    "t": "2026-11-03 04:30",
+    "cumR": -11.63
+   },
+   {
+    "t": "2026-11-03 05:15",
+    "cumR": -12.73
+   }
+  ],
+  "open_signals": [
+   {
+    "signal_time_jamaica": "2026-11-03 06:45:00",
+    "symbol": "frxGBPUSD",
+    "direction": "BUY",
+    "entry": "1.3408",
+    "stop": "1.339899",
+    "target": "1.342001"
+   }
+  ]
+ },
+ "backtests": {
+  "tests": 601,
+  "verdicts": {
+   "indistinguishable from zero": 321,
+   "n<30 TOO SMALL": 265,
+   "nominal p<0.05 only (expected by chance among many tests)": 15
+  },
+  "top": [
+   {
+    "impl": "asian_range",
+    "tf": "H1",
+    "group": "forex",
+    "n": 37,
+    "expR": 0.406,
+    "p": 0.0062
+   },
+   {
+    "impl": "fakey",
+    "tf": "M15",
+    "group": "real",
+    "n": 72,
+    "expR": 0.27,
+    "p": 0.0063
+   },
+   {
+    "impl": "fakey",
+    "tf": "M15",
+    "group": "forex",
+    "n": 37,
+    "expR": 0.179,
+    "p": 0.1453
+   },
+   {
+    "impl": "atr_burst",
+    "tf": "M15",
+    "group": "vol",
+    "n": 33,
+    "expR": 0.173,
+    "p": 0.1842
+   },
+   {
+    "impl": "streak_follow",
+    "tf": "H1",
+    "group": "forex",
+    "n": 33,
+    "expR": 0.173,
+    "p": 0.1842
+   },
+   {
+    "impl": "tsmom",
+    "tf": "H1",
+    "group": "forex",
+    "n": 55,
+    "expR": 0.173,
+    "p": 0.0845
+   },
+   {
+    "impl": "liq_sweep",
+    "tf": "M15",
+    "group": "forex",
+    "n": 45,
+    "expR": 0.172,
+    "p": 0.117
+   },
+   {
+    "impl": "pdhl",
+    "tf": "H1",
+    "group": "forex",
+    "n": 49,
+    "expR": 0.171,
+    "p": 0.1026
+   }
+  ]
+ },
+ "scanner": {
+  "rows": 144,
+  "runs": 12,
+  "candidates": 8,
+  "latest": [
+   {
+    "symbol": "frxEURUSD",
+    "time": "2026-11-03 07:59",
+    "trend": "UP",
+    "stage": "EARLY",
+    "candidate": "False",
+    "why": "session blocked London/other 02:00-08:30; no M15 confirmation (last M15 close 1.1177 vs pr"
+   },
+   {
+    "symbol": "frxGBPUSD",
+    "time": "2026-11-03 07:59",
+    "trend": "UP",
+    "stage": "MATURE",
+    "candidate": "False",
+    "why": "session blocked London/other 02:00-08:30; no M15 confirmation (last M15 close 1.3407 vs pr"
+   },
+   {
+    "symbol": "frxXAUUSD",
+    "time": "2026-11-03 07:59",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: 3 shrinking-range H1 candles after extended move (2.35 ATR from EMA50); "
+   },
+   {
+    "symbol": "OTC_DJI",
+    "time": "2026-11-03 07:59",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 3.55 ATR from EMA50 (>2.5); session blocked London/other 02:00-08:"
+   },
+   {
+    "symbol": "OTC_SPC",
+    "time": "2026-11-03 07:59",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 4.16 ATR from EMA50 (>2.5); session blocked London/other 02:00-08:"
+   },
+   {
+    "symbol": "R_75",
+    "time": "2026-11-03 07:59",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 2.91 ATR from EMA50 (>2.5)"
+   },
+   {
+    "symbol": "R_100",
+    "time": "2026-11-03 07:59",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "1HZ75V",
+    "time": "2026-11-03 07:59",
+    "trend": "DOWN",
+    "stage": "EARLY",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 4563.2 vs prior low 4562.1)"
+   },
+   {
+    "symbol": "1HZ100V",
+    "time": "2026-11-03 07:59",
+    "trend": "UP",
+    "stage": "MATURE",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 1371.9 vs prior high 1381.9)"
+   },
+   {
+    "symbol": "R_25",
+    "time": "2026-11-03 07:59",
+    "trend": "UP",
+    "stage": "EARLY",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 2927 vs prior high 2931.4)"
+   },
+   {
+    "symbol": "1HZ25V",
+    "time": "2026-11-03 07:59",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 4.13 ATR from EMA50 (>2.5)"
+   },
+   {
+    "symbol": "frxUSDJPY",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "frxAUDUSD",
+    "time": "2026-10-27 14:43",
+    "trend": "UP",
+    "stage": "EARLY",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 0.70283 vs prior high 0.70287)"
+   },
+   {
+    "symbol": "frxNZDUSD",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "frxUSDCAD",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "frxUSDCHF",
+    "time": "2026-10-27 14:43",
+    "trend": "UP",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 2.53 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 0."
+   },
+   {
+    "symbol": "frxEURJPY",
+    "time": "2026-10-27 14:43",
+    "trend": "DOWN",
+    "stage": "MATURE",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 175.87 vs prior low 175.8)"
+   },
+   {
+    "symbol": "frxGBPJPY",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "frxAUDJPY",
+    "time": "2026-10-27 14:43",
+    "trend": "UP",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 2.61 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 11"
+   },
+   {
+    "symbol": "frxEURGBP",
+    "time": "2026-10-27 14:43",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: 3 shrinking-range H1 candles after extended move (2.21 ATR from EMA50); "
+   },
+   {
+    "symbol": "frxGBPAUD",
+    "time": "2026-10-27 14:43",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 2.53 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 1."
+   },
+   {
+    "symbol": "frxEURAUD",
+    "time": "2026-10-27 14:43",
+    "trend": "DOWN",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 3.97 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 1."
+   },
+   {
+    "symbol": "frxXAGUSD",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "OTC_NDX",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "OTC_FTSE",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "OTC_GDAXI",
+    "time": "2026-10-27 14:43",
+    "trend": "UP",
+    "stage": "EXHAUSTING",
+    "candidate": "False",
+    "why": "trend EXHAUSTING: price 2.80 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 25"
+   },
+   {
+    "symbol": "OTC_N225",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "OTC_AS51",
+    "time": "2026-10-27 14:43",
+    "trend": "",
+    "stage": "",
+    "candidate": "False",
+    "why": "market closed/suspended (exchange_is_open=0, suspended=0)"
+   },
+   {
+    "symbol": "cryBTCUSD",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "cryETHUSD",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "R_10",
+    "time": "2026-10-27 14:43",
+    "trend": "UP",
+    "stage": "MATURE",
+    "candidate": "False",
+    "why": "no M15 confirmation (last M15 close 4949.7 vs prior high 4950.2)"
+   },
+   {
+    "symbol": "R_50",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   },
+   {
+    "symbol": "1HZ10V",
+    "time": "2026-10-27 14:43",
+    "trend": "UP",
+    "stage": "MATURE",
+    "candidate": "True",
+    "why": ""
+   },
+   {
+    "symbol": "1HZ50V",
+    "time": "2026-10-27 14:43",
+    "trend": "NONE",
+    "stage": "N/A",
+    "candidate": "False",
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Randall Signal Desk - Live (DEMO)</title>
+<style>body{font-family:system-ui;background:#0f1115;color:#e6e6e6;margin:20px}h2{margin:18px 0 6px}table{border-collapse:collapse;font-size:13px}td,th{border:1px solid #333;padding:4px 8px}.k{display:inline-block;background:#1b1f27;padding:10px 14px;margin:4px;border-radius:8px}.pos{color:#4caf50}.neg{color:#f44336}</style></head>
+<body><h1>Randall Signal Desk — DEMO ONLY, no edge proven yet</h1><div id="st"></div><div id="app">Loading…</div>
+<script>
+const f=(v)=>v==null?'—':(typeof v=='number'?(Math.round(v*100)/100):v);
+function tbl(rows){if(!rows||!rows.length)return'<i>none</i>';const k=Object.keys(rows[0]);return'<table><tr>'+k.map(x=>'<th>'+x+'</th>').join('')+'</tr>'+rows.map(r=>'<tr>'+k.map(x=>'<td>'+f(typeof r[x]=='object'?JSON.stringify(r[x]):r[x])+'</td>').join('')+'</tr>').join('')+'</table>'}
+async function load(){try{const d=await (await fetch('data.json?t='+Date.now())).json();const fw=d.forward||{};
+document.getElementById('app').innerHTML=
+'<div class="k">Demo balance<br><b>$'+f(d.demo_balance)+'</b></div><div class="k">Forward test<br><b class="'+(fw.exp_R>0?'pos':'neg')+'">'+f(fw.exp_R)+'R/trade</b> ('+fw.resolved+' resolved, CI '+JSON.stringify(fw.ci95)+')</div><div class="k">Backtests<br><b>'+f(d.backtests&&d.backtests.tests)+'</b></div>'+
+'<h2>Lanes</h2>'+tbl(d.lanes)+'<h2>Demo trades</h2>'+tbl(d.demo_trades)+'<h2>Open forward signals</h2>'+tbl(fw.open_signals)+'<h2>Top backtests</h2>'+tbl(d.backtests&&d.backtests.top);
+document.getElementById('st').innerText='Data as of '+d.as_of_jamaica+' Jamaica · page checked '+new Date().toLocaleTimeString()+' · auto-refresh 60s';}catch(e){document.getElementById('st').innerText='Load error: '+e}}
+load();setInterval(load,60000);
+</script></body></html>
