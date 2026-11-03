@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-03 08:43",
+ "as_of_jamaica": "2026-11-03 08:53",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,7 +67,7 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-03 08:30:14",
+  "updated": "2026-11-03 08:45:14",
   "resolved": 55,
   "open": 0,
   "wins": 21,
@@ -401,61 +401,61 @@
   ]
  },
  "scanner": {
-  "rows": 144,
-  "runs": 12,
-  "candidates": 8,
+  "rows": 155,
+  "runs": 13,
+  "candidates": 10,
   "latest": [
    {
     "symbol": "frxEURUSD",
-    "time": "2026-11-03 07:59",
-    "trend": "UP",
-    "stage": "EARLY",
+    "time": "2026-11-03 08:44",
+    "trend": "NONE",
+    "stage": "N/A",
     "candidate": "False",
-    "why": "session blocked London/other 02:00-08:30; no M15 confirmation (last M15 close 1.1177 vs pr"
+    "why": "no clear H1 trend (EMA stack/slope not aligned)"
    },
    {
     "symbol": "frxGBPUSD",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "UP",
     "stage": "MATURE",
-    "candidate": "False",
-    "why": "session blocked London/other 02:00-08:30; no M15 confirmation (last M15 close 1.3407 vs pr"
+    "candidate": "True",
+    "why": ""
    },
    {
     "symbol": "frxXAUUSD",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "DOWN",
-    "stage": "EXHAUSTING",
+    "stage": "MATURE",
     "candidate": "False",
-    "why": "trend EXHAUSTING: 3 shrinking-range H1 candles after extended move (2.35 ATR from EMA50); "
+    "why": "no M15 confirmation (last M15 close 3954.4 vs prior low 3927.9)"
    },
    {
     "symbol": "OTC_DJI",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "DOWN",
     "stage": "EXHAUSTING",
     "candidate": "False",
-    "why": "trend EXHAUSTING: price 3.55 ATR from EMA50 (>2.5); session blocked London/other 02:00-08:"
+    "why": "trend EXHAUSTING: price 2.59 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 51"
    },
    {
     "symbol": "OTC_SPC",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "DOWN",
     "stage": "EXHAUSTING",
     "candidate": "False",
-    "why": "trend EXHAUSTING: price 4.16 ATR from EMA50 (>2.5); session blocked London/other 02:00-08:"
+    "why": "trend EXHAUSTING: price 3.66 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 75"
    },
    {
     "symbol": "R_75",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "DOWN",
     "stage": "EXHAUSTING",
     "candidate": "False",
-    "why": "trend EXHAUSTING: price 2.91 ATR from EMA50 (>2.5)"
+    "why": "trend EXHAUSTING: price 3.07 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 35"
    },
    {
     "symbol": "R_100",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "NONE",
     "stage": "N/A",
     "candidate": "False",
@@ -463,35 +463,35 @@
    },
    {
     "symbol": "1HZ75V",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "DOWN",
     "stage": "EARLY",
     "candidate": "False",
-    "why": "no M15 confirmation (last M15 close 4563.2 vs prior low 4562.1)"
+    "why": "no M15 confirmation (last M15 close 4600.9 vs prior low 4556.9)"
    },
    {
     "symbol": "1HZ100V",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "UP",
     "stage": "MATURE",
     "candidate": "False",
-    "why": "no M15 confirmation (last M15 close 1371.9 vs prior high 1381.9)"
+    "why": "no M15 confirmation (last M15 close 1362.5 vs prior high 1371.5)"
    },
    {
     "symbol": "R_25",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "UP",
     "stage": "EARLY",
-    "candidate": "False",
-    "why": "no M15 confirmation (last M15 close 2927 vs prior high 2931.4)"
+    "candidate": "True",
+    "why": ""
    },
    {
     "symbol": "1HZ25V",
-    "time": "2026-11-03 07:59",
+    "time": "2026-11-03 08:44",
     "trend": "DOWN",
     "stage": "EXHAUSTING",
     "candidate": "False",
-    "why": "trend EXHAUSTING: price 4.13 ATR from EMA50 (>2.5)"
+    "why": "trend EXHAUSTING: price 3.79 ATR from EMA50 (>2.5); no M15 confirmation (last M15 close 9."
    },
    {
     "symbol": "frxUSDJPY",
