@@ -678,5 +678,89 @@
     "why": "no clear H1 trend (EMA stack/slope not aligned)"
    }
   ]
+ },
+ "h1_dukascopy": {
+  "title": "H1 frozen plan - Dukascopy 2018-2026",
+  "rows": [
+   {
+    "set": "EURUSD_1x",
+    "trades": 19,
+    "win_rate": 0.316,
+    "R_per_trade": 0.111,
+    "ci95": [
+     -0.401,
+     0.622
+    ],
+    "PF": 1.287,
+    "max_DD_R": 4.829,
+    "random_p": 0.23
+   },
+   {
+    "set": "XAUUSD_1x",
+    "trades": 31,
+    "win_rate": 0.323,
+    "R_per_trade": -0.034,
+    "ci95": [
+     -0.452,
+     0.384
+    ],
+    "PF": 0.93,
+    "max_DD_R": 7.133,
+    "random_p": 0.399
+   },
+   {
+    "set": "Combined_1x",
+    "trades": 50,
+    "win_rate": 0.32,
+    "R_per_trade": 0.021,
+    "ci95": [
+     -0.301,
+     0.342
+    ],
+    "PF": 1.046,
+    "max_DD_R": 8.552,
+    "random_p": null
+   },
+   {
+    "set": "EURUSD_2x",
+    "trades": 16,
+    "win_rate": 0.312,
+    "R_per_trade": 0.085,
+    "ci95": [
+     -0.439,
+     0.609
+    ],
+    "PF": 1.236,
+    "max_DD_R": 3.23,
+    "random_p": 0.189
+   },
+   {
+    "set": "XAUUSD_2x",
+    "trades": 27,
+    "win_rate": 0.296,
+    "R_per_trade": -0.043,
+    "ci95": [
+     -0.482,
+     0.396
+    ],
+    "PF": 0.911,
+    "max_DD_R": 7.016,
+    "random_p": 0.294
+   },
+   {
+    "set": "Combined_2x",
+    "trades": 43,
+    "win_rate": 0.302,
+    "R_per_trade": 0.005,
+    "ci95": [
+     -0.329,
+     0.339
+    ],
+    "PF": 1.011,
+    "max_DD_R": 8.591,
+    "random_p": null
+   }
+  ],
+  "verdict": "no edge"
  }
 }
