@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-04 17:21",
+ "as_of_jamaica": "2026-11-04 17:31",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,7 +67,7 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-04 17:15:13",
+  "updated": "2026-11-04 17:30:13",
   "resolved": 67,
   "open": 2,
   "wins": 27,
