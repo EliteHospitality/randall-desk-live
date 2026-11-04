@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-04 07:25",
+ "as_of_jamaica": "2026-11-04 07:35",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,15 +67,15 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-04 07:15:14",
-  "resolved": 62,
-  "open": 2,
+  "updated": "2026-11-04 07:30:15",
+  "resolved": 63,
+  "open": 1,
   "wins": 25,
-  "win_rate": 0.4032,
-  "exp_R": -0.1592,
-  "ci95": 0.287,
-  "total_R": -9.868,
-  "total_usd": -197.35,
+  "win_rate": 0.3968,
+  "exp_R": -0.1741,
+  "ci95": 0.284,
+  "total_R": -10.968,
+  "total_usd": -219.35,
   "target": 50,
   "significant": false,
   "in_window": {
@@ -350,6 +350,10 @@
    {
     "t": "2026-11-04 04:00",
     "cumR": -9.87
+   },
+   {
+    "t": "2026-11-04 05:45",
+    "cumR": -10.97
    }
   ],
   "open_signals": [
@@ -360,14 +364,6 @@
     "entry": "1.12539",
     "stop": "1.126817",
     "target": "1.123488"
-   },
-   {
-    "signal_time_jamaica": "2026-11-04 05:45:00",
-    "symbol": "frxGBPUSD",
-    "direction": "SELL",
-    "entry": "1.34772",
-    "stop": "1.349158",
-    "target": "1.345803"
    }
   ]
  },
