@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-04 11:54",
+ "as_of_jamaica": "2026-11-04 12:04",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,32 +67,32 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-04 11:45:14",
-  "resolved": 66,
-  "open": 1,
+  "updated": "2026-11-04 12:00:14",
+  "resolved": 67,
+  "open": 0,
   "wins": 27,
-  "win_rate": 0.4091,
-  "exp_R": -0.1455,
-  "ci95": 0.279,
-  "total_R": -9.601,
-  "total_usd": -192.02,
+  "win_rate": 0.403,
+  "exp_R": -0.1597,
+  "ci95": 0.276,
+  "total_R": -10.701,
+  "total_usd": -214.02,
   "target": 50,
   "significant": false,
   "in_window": {
    "signals": 36,
-   "open": 1,
-   "resolved": 35,
+   "open": 0,
+   "resolved": 36,
    "wins": 13,
-   "losses": 22,
+   "losses": 23,
    "flat": 0,
-   "win_rate": 0.3714,
-   "avg_R_gross": -0.1333,
-   "avg_R_net": -0.2333,
-   "avg_usd_gross": -2.67,
-   "avg_usd_net": -4.67,
-   "total_R_net": -8.167,
-   "total_usd_net": -163.34,
-   "ci95_R": 0.379,
+   "win_rate": 0.3611,
+   "avg_R_gross": -0.1574,
+   "avg_R_net": -0.2574,
+   "avg_usd_gross": -3.15,
+   "avg_usd_net": -5.15,
+   "total_R_net": -9.267,
+   "total_usd_net": -185.34,
+   "ci95_R": 0.371,
    "significant": false
   },
   "backtest_ref": {
@@ -366,17 +366,13 @@
    {
     "t": "2026-11-04 07:45",
     "cumR": -9.6
+   },
+   {
+    "t": "2026-11-04 10:45",
+    "cumR": -10.7
    }
   ],
   "open_signals": [
-   {
-    "signal_time_jamaica": "2026-11-04 10:45:00",
-    "symbol": "frxGBPUSD",
-    "direction": "BUY",
-    "entry": "1.34702",
-    "stop": "1.345675",
-    "target": "1.348813"
-   },
    {
     "signal_time_jamaica": "2026-11-04 11:30:00",
     "symbol": "frxGBPUSD",
