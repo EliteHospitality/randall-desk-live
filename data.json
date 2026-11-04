@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-04 00:13",
+ "as_of_jamaica": "2026-11-04 00:53",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,7 +67,7 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-04 00:00:13",
+  "updated": "2026-11-04 00:51:37",
   "resolved": 58,
   "open": 2,
   "wins": 23,
@@ -352,6 +352,14 @@
     "entry": "1.3467",
     "stop": "1.348133",
     "target": "1.344789"
+   },
+   {
+    "signal_time_jamaica": "2026-11-04 00:45:00",
+    "symbol": "frxGBPUSD",
+    "direction": "BUY",
+    "entry": "1.34587",
+    "stop": "1.344451",
+    "target": "1.347762"
    }
   ]
  },
