@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-04 01:03",
+ "as_of_jamaica": "2026-11-04 06:55",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,32 +67,32 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-04 01:00:13",
-  "resolved": 58,
+  "updated": "2026-11-04 06:53:30",
+  "resolved": 62,
   "open": 2,
-  "wins": 23,
-  "win_rate": 0.3966,
-  "exp_R": -0.1747,
-  "ci95": 0.296,
-  "total_R": -10.134,
-  "total_usd": -202.68,
+  "wins": 25,
+  "win_rate": 0.4032,
+  "exp_R": -0.1592,
+  "ci95": 0.287,
+  "total_R": -9.868,
+  "total_usd": -197.35,
   "target": 50,
   "significant": false,
   "in_window": {
    "signals": 35,
-   "open": 2,
-   "resolved": 33,
-   "wins": 12,
-   "losses": 21,
+   "open": 0,
+   "resolved": 35,
+   "wins": 13,
+   "losses": 22,
    "flat": 0,
-   "win_rate": 0.3636,
-   "avg_R_gross": -0.1515,
-   "avg_R_net": -0.2515,
-   "avg_usd_gross": -3.03,
-   "avg_usd_net": -5.03,
-   "total_R_net": -8.3,
-   "total_usd_net": -166.01,
-   "ci95_R": 0.389,
+   "win_rate": 0.3714,
+   "avg_R_gross": -0.1333,
+   "avg_R_net": -0.2333,
+   "avg_usd_gross": -2.67,
+   "avg_usd_net": -4.67,
+   "total_R_net": -8.167,
+   "total_usd_net": -163.34,
+   "ci95_R": 0.379,
    "significant": false
   },
   "backtest_ref": {
@@ -334,32 +334,40 @@
    {
     "t": "2026-11-03 13:30",
     "cumR": -10.13
+   },
+   {
+    "t": "2026-11-03 23:45",
+    "cumR": -8.9
+   },
+   {
+    "t": "2026-11-03 23:45",
+    "cumR": -10.0
+   },
+   {
+    "t": "2026-11-04 02:30",
+    "cumR": -8.77
+   },
+   {
+    "t": "2026-11-04 04:00",
+    "cumR": -9.87
    }
   ],
   "open_signals": [
    {
-    "signal_time_jamaica": "2026-11-03 23:45:00",
+    "signal_time_jamaica": "2026-11-04 05:30:00",
     "symbol": "frxEURUSD",
     "direction": "SELL",
-    "entry": "1.1247",
-    "stop": "1.126382",
-    "target": "1.122457"
+    "entry": "1.12539",
+    "stop": "1.126817",
+    "target": "1.123488"
    },
    {
-    "signal_time_jamaica": "2026-11-03 23:45:00",
+    "signal_time_jamaica": "2026-11-04 05:45:00",
     "symbol": "frxGBPUSD",
     "direction": "SELL",
-    "entry": "1.3467",
-    "stop": "1.348133",
-    "target": "1.344789"
-   },
-   {
-    "signal_time_jamaica": "2026-11-04 00:45:00",
-    "symbol": "frxGBPUSD",
-    "direction": "BUY",
-    "entry": "1.34587",
-    "stop": "1.344451",
-    "target": "1.347762"
+    "entry": "1.34772",
+    "stop": "1.349158",
+    "target": "1.345803"
    }
   ]
  },
