@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-04 18:06",
+ "as_of_jamaica": "2026-11-04 18:16",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,7 +67,7 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-04 18:00:13",
+  "updated": "2026-11-04 18:15:45",
   "resolved": 67,
   "open": 2,
   "wins": 27,
@@ -412,6 +412,14 @@
     "entry": "1.34715",
     "stop": "1.346301",
     "target": "1.348281"
+   },
+   {
+    "signal_time_jamaica": "2026-11-04 18:15:00",
+    "symbol": "frxEURUSD",
+    "direction": "SELL",
+    "entry": "1.12324",
+    "stop": "1.123937",
+    "target": "1.122311"
    }
   ]
  },
