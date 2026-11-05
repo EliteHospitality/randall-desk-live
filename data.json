@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-05 00:04",
+ "as_of_jamaica": "2026-11-05 00:52",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,9 +67,9 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-05 00:01:44",
+  "updated": "2026-11-05 00:48:28",
   "resolved": 69,
-  "open": 1,
+  "open": 2,
   "wins": 28,
   "win_rate": 0.4058,
   "exp_R": -0.1532,
@@ -79,8 +79,8 @@
   "target": 50,
   "significant": false,
   "in_window": {
-   "signals": 38,
-   "open": 1,
+   "signals": 39,
+   "open": 2,
    "resolved": 37,
    "wins": 14,
    "losses": 23,
@@ -388,6 +388,14 @@
     "entry": "1.34905",
     "stop": "1.349678",
     "target": "1.348213"
+   },
+   {
+    "signal_time_jamaica": "2026-11-05 00:45:00",
+    "symbol": "frxEURUSD",
+    "direction": "BUY",
+    "entry": "1.12611",
+    "stop": "1.125483",
+    "target": "1.126946"
    }
   ]
  },
