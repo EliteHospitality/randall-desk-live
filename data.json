@@ -1,5 +1,5 @@
 {
- "as_of_jamaica": "2026-11-05 02:22",
+ "as_of_jamaica": "2026-11-05 02:32",
  "demo_trades": [
   {
    "lane": "learning",
@@ -67,32 +67,32 @@
  ],
  "journal_ideas": 11,
  "forward": {
-  "updated": "2026-11-05 02:15:13",
-  "resolved": 70,
-  "open": 2,
-  "wins": 28,
-  "win_rate": 0.4,
-  "exp_R": -0.1667,
-  "ci95": 0.27,
-  "total_R": -11.668,
-  "total_usd": -233.35,
+  "updated": "2026-11-05 02:30:14",
+  "resolved": 72,
+  "open": 0,
+  "wins": 29,
+  "win_rate": 0.4028,
+  "exp_R": -0.1602,
+  "ci95": 0.266,
+  "total_R": -11.534,
+  "total_usd": -230.69,
   "target": 50,
   "significant": false,
   "in_window": {
    "signals": 39,
-   "open": 1,
-   "resolved": 38,
+   "open": 0,
+   "resolved": 39,
    "wins": 14,
-   "losses": 24,
+   "losses": 25,
    "flat": 0,
-   "win_rate": 0.3684,
-   "avg_R_gross": -0.1404,
-   "avg_R_net": -0.2404,
-   "avg_usd_gross": -2.81,
-   "avg_usd_net": -4.81,
-   "total_R_net": -9.134,
-   "total_usd_net": -182.68,
-   "ci95_R": 0.363,
+   "win_rate": 0.359,
+   "avg_R_gross": -0.1624,
+   "avg_R_net": -0.2624,
+   "avg_usd_gross": -3.25,
+   "avg_usd_net": -5.25,
+   "total_R_net": -10.234,
+   "total_usd_net": -204.68,
+   "ci95_R": 0.356,
    "significant": false
   },
   "backtest_ref": {
@@ -382,34 +382,17 @@
    {
     "t": "2026-11-04 23:45",
     "cumR": -11.67
+   },
+   {
+    "t": "2026-11-05 00:45",
+    "cumR": -12.77
+   },
+   {
+    "t": "2026-11-05 02:15",
+    "cumR": -11.53
    }
   ],
-  "open_signals": [
-   {
-    "signal_time_jamaica": "2026-11-05 00:45:00",
-    "symbol": "frxEURUSD",
-    "direction": "BUY",
-    "entry": "1.12611",
-    "stop": "1.125483",
-    "target": "1.126946"
-   },
-   {
-    "signal_time_jamaica": "2026-11-05 01:30:00",
-    "symbol": "frxGBPUSD",
-    "direction": "BUY",
-    "entry": "1.34937",
-    "stop": "1.348778",
-    "target": "1.350159"
-   },
-   {
-    "signal_time_jamaica": "2026-11-05 02:15:00",
-    "symbol": "frxGBPUSD",
-    "direction": "SELL",
-    "entry": "1.34908",
-    "stop": "1.349798",
-    "target": "1.348122"
-   }
-  ]
+  "open_signals": []
  },
  "backtests": {
   "tests": 601,
